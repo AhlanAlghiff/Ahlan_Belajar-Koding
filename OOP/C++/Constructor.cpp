@@ -3,14 +3,15 @@
 
 using namespace std;
 
-//class tanpa constructor
+//class dengan constructor
 class VitaKos{
     public :
         string nama_penghuni;
         string asal;
         string umur;
         int no_kamar;
-
+        
+        //ini adalah constructor
         VitaKos(string inputNama, string inputAsal, string inputUsia, int inputKamar){
             VitaKos::nama_penghuni = inputNama;
             VitaKos::asal = inputAsal;
